@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Разработка сайта на 1С-Битрикс — система для заявок и продаж</title>
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
-<meta name="description" content="Разрабатываем сайты и интернет-магазины на 1С-Битрикс и связываем их с 1С, рекламой, CRM и аналитикой. Не просто сайт — система для заявок и продаж.">
+<meta name="description" content="Разрабатываем сайт или интернет-магазин на 1С-Битрикс и связываем его с 1С, рекламой, CRM и аналитикой. Не просто сайт — система для заявок и продаж.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:title" content="Разработка сайта на 1С-Битрикс — система для заявок и продаж">
-<meta property="og:description" content="Разрабатываем сайты и интернет-магазины на 1С-Битрикс и связываем их с 1С, рекламой, CRM и аналитикой. Не просто сайт — система для заявок и продаж.">
+<meta property="og:description" content="Разрабатываем сайт или интернет-магазин на 1С-Битрикс и связываем его с 1С, рекламой, CRM и аналитикой. Не просто сайт — система для заявок и продаж.">
 <meta property="og:image" content="assets/img/og-image.jpg">
 <meta property="og:image:width" content="1790">
 <meta property="og:image:height" content="878">
@@ -696,12 +696,16 @@ nav.scrolled .btn-swap:hover{background:var(--red-2)}
 .share-top b small{font-size:60px;letter-spacing:-3px;color:var(--red)}
 .share-top p{max-width:240px;color:#949494;font-size:15px;padding-top:10px}
 .share-top p strong{color:var(--grey);font-weight:600}
+.bx-facts{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px;padding-top:28px;border-top:1px solid #2a2a2a}
+.bx-facts b{display:block;font-size:40px;font-weight:600;letter-spacing:-2px;line-height:1;color:var(--grey)}
+.bx-facts span{display:block;margin-top:10px;font-size:14px;color:#949494;max-width:220px}
 .cms{margin-top:auto;padding-top:44px;display:flex;flex-direction:column;gap:18px}
 .cms-row{display:grid;grid-template-columns:1fr auto;row-gap:8px;align-items:end;font-size:14px;color:#bdbdbd}
 .cms-row b{grid-row:1;grid-column:2;font-size:14px;font-weight:600;color:#efefef;line-height:1;font-variant-numeric:tabular-nums}
 .cms-row.bx{color:#fff;font-weight:600}
 .cms-row.bx b{color:var(--red);font-size:20px}
-.cms-bar{grid-column:1/-1;display:grid;grid-template-columns:repeat(33,1fr);gap:3px}
+.cms-row span em{font-style:normal;font-weight:400;color:#797979}
+.cms-bar{grid-column:1/-1;display:grid;grid-template-columns:repeat(34,1fr);gap:3px}
 .cms-bar i{aspect-ratio:1;background:#555;transform:scale(0);transition:transform .35s cubic-bezier(.34,1.56,.64,1)}
 .cms-row.bx .cms-bar i{background:var(--red)}
 .cms.on .cms-bar i{transform:none}
@@ -1027,7 +1031,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
   .price-partner-badge{position:static;margin:0 0 16px!important}
   .work{grid-template-columns:1fr}
   .promo__timer-unit{min-width:80px;padding:14px 18px 10px}.promo__timer-num{font-size:44px}.promo__timer-sep{font-size:40px}
-  .feats{grid-template-columns:1fr}.share{padding:28px 20px}.share-top b{font-size:80px;letter-spacing:-4px}.share-top b small{font-size:40px}.share-top{flex-direction:column}.cms-bar{gap:2px}
+  .feats{grid-template-columns:1fr}.share{padding:28px 20px}.share-top b{font-size:80px;letter-spacing:-4px}.share-top b small{font-size:40px}.bx-facts b{font-size:32px}.share-top{flex-direction:column}.cms-bar{gap:2px}
   .channels{grid-template-columns:1fr}
   form{grid-template-columns:1fr}
   .case{margin-bottom:60px}
@@ -1186,7 +1190,7 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
     <div class="show-side">
       <div class="show-count"><b id="show-n">01</b> / 05</div>
       <div class="show-cat" id="show-cat"><span class="on">Стоматология</span><span>Ремонт квартир</span><span>Юридические услуги</span><span>Онлайн-школа</span><span>Интернет-магазин</span></div>
-      <p class="show-text">Сайт собираем под задачу бизнеса: от прототипа и дизайна до адаптивной вёрстки на 1С-Битрикс. Без шаблонного дизайна.</p>
+      <p class="show-text">Сайт собираем под задачу бизнеса: от прототипа и дизайна до адаптивной вёрстки. Без купленных шаблонов.</p>
       <div class="show-prog" id="show-prog"><i class="on" role="button" aria-label="Дизайн 1"></i><i role="button" aria-label="Дизайн 2"></i><i role="button" aria-label="Дизайн 3"></i><i role="button" aria-label="Дизайн 4"></i><i role="button" aria-label="Дизайн 5"></i></div>
       <div class="show-nav"><button id="show-prev" aria-label="Предыдущий дизайн">←</button><button id="show-next" aria-label="Следующий дизайн">→</button></div>
       <div class="show-steps"><span class="on">Анализ задачи и прототип</span><span class="on">Визуальный стиль и дизайн</span><span class="on">Адаптивная вёрстка</span></div>
@@ -1354,25 +1358,25 @@ footer{background:var(--ink);color:var(--grey);padding:100px 0}
 <section class="sec" id="why"><div class="wrap">
   <div class="head">
     <div><p class="eyebrow eb-wide fu">Почему 1С-Битрикс</p><h2 class="rv">Самая популярная коммерческая CMS <em>в&nbsp;России</em></h2></div>
-    <p class="descr fu d2">1С-Битрикс&nbsp;— российская платформа с&nbsp;родной интеграцией с&nbsp;1С, встроенной защитой и&nbsp;готовым интернет-магазином. На&nbsp;ней уже создали сайты более 375&nbsp;000 компаний.</p>
+    <p class="descr fu d2">1С-Битрикс&nbsp;— российская платформа с&nbsp;родной интеграцией с&nbsp;1С, встроенной защитой и&nbsp;готовым интернет-магазином. Её&nbsp;выбирают, когда сайт должен работать в&nbsp;связке с&nbsp;учётом, выдерживать нагрузку и&nbsp;расти вместе с&nbsp;бизнесом.</p>
   </div>
   <div class="why-grid">
     <div class="share fu">
       <div class="share-top">
-        <b><span data-count="66">66</span><small>%</small></b>
-        <p><strong>платных CMS в&nbsp;зоне .RU</strong>&nbsp;— это 1С-Битрикс. У&nbsp;ближайшего конкурента меньше 7%.</p>
+        <b><small>№</small>1</b>
+        <p><strong>среди платных CMS в&nbsp;зоне .RU.</strong> Впереди только бесплатный WordPress и&nbsp;конструктор Tilda.</p>
       </div>
-      <div class="cms" id="cms" role="img" aria-label="Доля среди платных CMS в зоне .RU по данным iTrack: 1С-Битрикс 65,95%, DataLife Engine 6,89%, Creatium 6,72%, Adobe Muse 3,30%, CMS.S3 3,23%, UMI.CMS 3,18%, NetCat 2,95%, HostCMS 2,20%">
-        <div class="cms-row bx" data-v="65.95"><span>1С-Битрикс</span><div class="cms-bar"></div><b>65,95%</b></div>
-        <div class="cms-row" data-v="6.89"><span>DataLife Engine</span><div class="cms-bar"></div><b>6,89%</b></div>
-        <div class="cms-row" data-v="6.72"><span>Creatium</span><div class="cms-bar"></div><b>6,72%</b></div>
-        <div class="cms-row" data-v="3.30"><span>Adobe Muse</span><div class="cms-bar"></div><b>3,30%</b></div>
-        <div class="cms-row" data-v="3.23"><span>CMS.S3</span><div class="cms-bar"></div><b>3,23%</b></div>
-        <div class="cms-row" data-v="3.18"><span>UMI.CMS</span><div class="cms-bar"></div><b>3,18%</b></div>
-        <div class="cms-row" data-v="2.95"><span>NetCat</span><div class="cms-bar"></div><b>2,95%</b></div>
-        <div class="cms-row" data-v="2.20"><span>HostCMS</span><div class="cms-bar"></div><b>2,20%</b></div>
+      <div class="bx-facts">
+        <div><b>66%</b><span>доля среди платных CMS по&nbsp;рейтингу iTrack</span></div>
+        <div><b>375&nbsp;000+</b><span>компаний создали сайты на&nbsp;платформе</span></div>
       </div>
-      <p class="share-src">Доля среди платных тиражных CMS в&nbsp;зоне .RU, рейтинг iTrack (5,5&nbsp;млн доменов, январь 2024&nbsp;— последний опубликованный). Один квадратик&nbsp;— 2%.</p>
+      <div class="cms" id="cms" role="img" aria-label="Доля CMS среди сайтов в зоне .RU по данным W3Techs, октябрь 2026: WordPress 33,4%, Tilda 27,4%, 1С-Битрикс 15,9%, остальные системы 23,3%">
+        <div class="cms-row" data-v="33.4"><span>WordPress <em>· бесплатная CMS</em></span><div class="cms-bar"></div><b>33,4%</b></div>
+        <div class="cms-row" data-v="27.4"><span>Tilda <em>· конструктор</em></span><div class="cms-bar"></div><b>27,4%</b></div>
+        <div class="cms-row bx" data-v="15.9"><span>1С-Битрикс <em>· платная CMS</em></span><div class="cms-bar"></div><b>15,9%</b></div>
+        <div class="cms-row" data-v="23.3"><span>Остальные <em>· более 1000 систем</em></span><div class="cms-bar"></div><b>23,3%</b></div>
+      </div>
+      <p class="share-src">Доля среди сайтов в&nbsp;зоне .RU с&nbsp;известной CMS, W3Techs, октябрь 2026. Один квадратик&nbsp;— 1%. Рейтинг платных CMS&nbsp;— iTrack, 2024.</p>
     </div>
     <div class="feats">
       <div class="feat fu"><div class="fn">01<span class="badge">Обмен с 1С</span></div><h3>Родная связь с&nbsp;1С</h3><p>Товары, цены, остатки и&nbsp;заказы синхронизируются с&nbsp;1С автоматически, в&nbsp;обе стороны. Ничего не&nbsp;нужно переносить вручную, а&nbsp;на&nbsp;сайте всегда актуальные данные.</p></div>
@@ -1792,11 +1796,11 @@ document.querySelectorAll("[data-count]").forEach((el) => cio.observe(el));
   new IntersectionObserver(([e]) => { if (e.isIntersecting && !playing) play(); }, { threshold: .15 }).observe(box);
 })();
 
-/* «Почему 1С-Битрикс»: столбцы из квадратиков, каждый квадратик — 2% */
+/* «Почему 1С-Битрикс»: столбцы из квадратиков, каждый квадратик — 1% */
 (() => {
   const cms = document.getElementById("cms");
   cms.querySelectorAll(".cms-row").forEach((row, r) => {
-    const n = Math.max(1, Math.round(row.dataset.v / 2));
+    const n = Math.round(row.dataset.v);
     row.querySelector(".cms-bar").innerHTML = Array.from({ length: n }, (_, k) => `<i style="transition-delay:${(r * 60 + k * 22) / 1000}s"></i>`).join("");
   });
   if (reduce) { cms.classList.add("on"); return; }
